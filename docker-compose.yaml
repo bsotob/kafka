@@ -1,0 +1,43 @@
+version: "3.9"
+services:
+  zookeeper:
+    build: ./zookeeper/
+    command: /kafka/bin/zookeeper-server-start.sh kafka/config/zookeeper.properties
+    ports:
+     - "2181:2181"
+    networks:
+     - kafka_network
+    volumes:
+     - ./zookeeper/logs_zookeeper/:/kafka/logs/
+
+  kafka_node_1:
+    build: ./kafka_node_1/
+    command: /kafka/bin/kafka-server-start.sh kafka/config/server.properties
+    ports:
+     - "9092:9092"
+    links:
+     - zookeeper
+    depends_on:
+     - zookeeper
+    networks:
+     - kafka_network
+    volumes:
+     - ./kafka_node_1/logs_kafka/:/kafka/logs/
+
+
+  kafka_node_2:
+    build: ./kafka_node_2/
+    command: /kafka/bin/kafka-server-start.sh kafka/config/server.properties
+    ports:
+     - "9091:9092"
+    links:
+     - zookeeper
+    depends_on:
+     - zookeeper
+    networks:
+     - kafka_network
+    volumes:
+     - ./kafka_node_2/logs_kafka/:/kafka/logs/
+   
+networks:
+  kafka_network:
