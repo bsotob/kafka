@@ -46,5 +46,22 @@ python3 kafka_producer/create_topic.py
 
 ```
 
+code python client:
 
+
+```
+
+from confluent_kafka import Producer
+import socket
+
+conf = {'bootstrap.servers': "localhost:9092"}
+
+producer = Producer(conf)
+
+
+producer.produce("fruteria_topic", key="manzana" , value="roja")
+
+producer.flush()
+
+```
 
