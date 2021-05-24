@@ -61,9 +61,10 @@ conf = {'bootstrap.servers': "localhost:9092"}
 producer = Producer(conf)
 
 
-producer.produce("fruteria_topic", key="manzana" , value="roja")
+producer.produce("fruteria_topic", key="fruta" , value="mamanzana")
 
 producer.flush()
+
 
 ```
 
