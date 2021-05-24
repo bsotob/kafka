@@ -39,4 +39,12 @@ URL access grafana : http://localhost:3000/login
 URL access prometheus: http://localhost:9000/targets
 
 
+## KAFKA Producer TESTING
+
+```
+python3 kafka_producer/create_topic.py
+
+```
+
+
 
