@@ -32,15 +32,6 @@ Linux computer with:
 - docker-compose build
 - docker-compose up
 
-
-
-## urls access
-
-URL access grafana : http://localhost:3000/login
-
-URL access prometheus: http://localhost:9000/targets
-
-
 ## KAFKA Producer TESTING
 
 ```
@@ -104,3 +95,13 @@ c.close()
 
 
 ```
+
+## urls access
+
+URL access grafana : http://localhost:3000/login
+
+
+
+URL access prometheus: http://localhost:9000/targets
+
+
