@@ -28,23 +28,12 @@ Linux computer with:
 - docker-compose build
 - docker-compose up
 
-_Dí cómo será ese paso_
 
-```
-Da un ejemplo
-```
 
-_Y repite_
+## Accesos ⚙️
 
-```
-hasta finalizar
-```
-
-_Finaliza con un ejemplo de cómo obtener datos del sistema o como usarlos para una pequeña demo_
-
-## Ejecutando las pruebas ⚙️
-
-_Explica como ejecutar las pruebas automatizadas para este sistema_
+URL access grafana : http://localhost:3000/login
+URL access prometheus: http://localhost:9000/targets
 
 ### Analice las pruebas end-to-end 🔩
 
