@@ -8,7 +8,6 @@ COPY config/server.properties /kafka/config/
 
 RUN cd kafka && ./gradlew jar -PscalaVersion=2.13.2  # it needs compile
 
-#CMD /kafka/bin/kafka-server-start.sh kafka/config/server.properties
-
+RUN apt-get install -y prometheus-node-exporter
 
 

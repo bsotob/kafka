@@ -1,0 +1,13 @@
+global:
+  scrape_interval: 30s
+  scrape_timeout: 10s
+
+scrape_configs:
+  - job_name: services
+    metrics_path: /metrics
+    static_configs:
+      - targets:
+          - 'zookeeper:9100'
+          - 'kafka_node_1:9100'
+          - 'kafka_node_2:9100'
+          - 'grafana:9100'
