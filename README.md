@@ -20,8 +20,11 @@ Linux computer with:
 
 - git clone https://github.com/bsotob/kafka.git
 - Edit the following property in the files:  advertised.listeners=PLAINTEXT://IP_DOCKER_HOST:909X   (command to extract it: ip addr show docker0 | grep -Po 'inet \K[\d.]+') and port defined in docker-compose : 9091,9092
+
           -   kafka_node_1/config/server.properties
+          
           -   kafka_node_2/config/server.properties
+          
 - docker-compose build
 - docker-compose up
 
