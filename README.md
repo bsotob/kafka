@@ -100,7 +100,7 @@ c.close()
 
 URL access grafana : http://localhost:3000/login
 
-
+(https://github.com/bsotob/kafka/blob/main/grafana.JPG)
 
 URL access prometheus: http://localhost:9000/targets
 
