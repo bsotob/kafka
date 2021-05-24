@@ -14,7 +14,7 @@ Linux computer with:
 * python3
 * docker
 * docker-compose
-* lib-> confluent_kafka (to client python3 producer and consumer)
+* lib-> confluent_kafka (to client python3 producer and consumer) -> pip3 install confluent-kafka
 
 ### Instalación 🔧
 
@@ -34,7 +34,7 @@ Linux computer with:
 
 
 
-## Accesos ⚙️
+## urls access
 
 URL access grafana : http://localhost:3000/login
 
