@@ -11,7 +11,7 @@ The lab does not comply with good practices to be in production. As kafka images
 ### pre-requirements
 
 
-Linux computer with:
+Linux (Ubuntu(deb)) computer with:
 * python3
 * docker
 * docker-compose
