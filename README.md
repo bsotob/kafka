@@ -32,6 +32,7 @@ Linux computer with:
           exemple: "advertised.listeners=PLAINTEXT://172.17.0.1:9092"
           
 3 - docker-compose build
+
 4 - docker-compose up
 
 ## KAFKA Producer TESTING
