@@ -10,11 +10,11 @@ The lab does not comply with good practices to be in production. As kafka images
 
 ### Pre-requisitos 📋
 
-_Que cosas necesitas para instalar el software y como instalarlas_
-
-```
-Da un ejemplo
-```
+Linux computer with:
+* python3
+* docker
+* docker-compose
+* lib-> confluent_kafka (to client python3 producer and consumer)
 
 ### Instalación 🔧
 
