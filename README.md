@@ -27,6 +27,8 @@ Linux computer with:
           
           -   kafka_node_2/config/server.properties
           
+          exemple: "advertised.listeners=PLAINTEXT://172.17.0.1:9092"
+          
 - docker-compose build
 - docker-compose up
 
