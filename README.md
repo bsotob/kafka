@@ -1,12 +1,11 @@
 # KAFKA CLUSTER IN DOCKER WITH MONITORING SYSTEM (GRAFANA + PROMETHEUS)
 
-_Acá va un párrafo que describa lo que es el proyecto_
+The lab creates a kafka cluster made up of two functional nodes and a zookeeper manager. It also has monitoring using graphane and prometheus
 
-## Comenzando 🚀
+## Description lab 🚀
 
-_Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
 
-Mira **Deployment** para conocer como desplegar el proyecto.
+The lab does not comply with good practices to be in production. As kafka images we use the ubuntu image so that the kafka installation is not transparent.
 
 
 ### Pre-requisitos 📋
