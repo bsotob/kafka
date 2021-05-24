@@ -101,8 +101,8 @@ c.close()
 URL access grafana : http://localhost:3000/login
 
 ![Alt text](https://github.com/bsotob/kafka/blob/main/grafana.JPG)
-https://github.com/bsotob/kafka/blob/main/grafana.JPG
 
 URL access prometheus: http://localhost:9000/targets
+![Alt text](https://github.com/bsotob/kafka/blob/main/prometheus.JPG)
 
 
