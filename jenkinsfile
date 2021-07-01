@@ -1,8 +1,7 @@
-
 pipeline {
 	agent any
     stages {
-        stage('deploy) {
+        stage('deploy') {
             steps {
                 BRANCHES = sh (
                 script: 'git branch -r|grep -v HEAD|awk -F "/" '{print $2}' ',
@@ -10,4 +9,5 @@ pipeline {
                 echo BRANCHES
             }
         }
+    }
 }
